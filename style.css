@@ -1,0 +1,87 @@
+
+.header {
+    background-color: rgb(55, 61, 77);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+ul li {
+    list-style-type:none;
+    display: inline-block;
+    flex-direction: row;
+    font-size: 30px;
+    margin: 10px;
+    text-decoration: underline;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: space-between;
+    align-items: center;
+    text-decoration: underline;
+}
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#imageAlbum {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+.axolotl-img {
+    width: 25%;
+    
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+#video {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h2 {  
+    border-bottom: 10px solid;
+}
+.container-fluid {
+    text-align: center;
+    line-height: 0px;
+      
+}
+.about-us {
+    background-color: rgb(55, 61, 77);
+    color: white;
+    text-align: center;
+    padding: 10px;
+   
+}
+.about-us p {
+    padding: 20px;
+    font-size: 20px;
+}
+.cycling-guide {
+    padding: 100px
+}
+#cycling-photo {
+    padding:100px ; 
+}
+ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+ol li {
+    font-size: 30px;
+    margin: 10px;
+}
