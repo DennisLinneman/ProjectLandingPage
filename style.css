@@ -1,4 +1,3 @@
-
 .header {
     background-color: rgb(55, 61, 77);
     color: white;
@@ -7,8 +6,8 @@
 }
 
 .header img {
-    max-width: 80px; 
-    height: auto; 
+    max-width: 80px;
+    height: auto;
 }
 
 .header .nav-bar {
@@ -37,12 +36,14 @@ ul li {
     margin: 10px;
     text-decoration: underline;
 }
+
 .nav-bar {
     display: flex;
     flex-direction: space-between;
     align-items: center;
     text-decoration: underline;
 }
+
 body {
     background-color: #fff;
     margin: 0;
@@ -56,45 +57,52 @@ body {
     width: 100%;
     height: auto;
 }
+
 .axolotl-img {
     width: 25%;
-    
 }
+
 h1 {
     text-align: center;
     font-weight: bold;
     color: black;
 }
+
 #video {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-h2 {  
+
+h2 {
     border-bottom: 10px solid;
 }
+
 .container-fluid {
     text-align: center;
     line-height: 0px;
-      
 }
+
 .about-us {
     background-color: rgb(55, 61, 77);
     color: white;
     text-align: center;
     padding: 10px;
-   
 }
+
 .about-us p {
     padding: 20px;
     font-size: 20px;
 }
+
 .cycling-guide {
-    padding: 100px
+    padding: 100px;
 }
+
 #cycling-photo {
-    padding:100px ; 
+    padding: 100px;
 }
+
 ol {
     display: flex;
     flex-direction: column;
@@ -108,6 +116,7 @@ ol li {
     font-size: 30px;
     margin: 10px;
 }
+
 .contact-us {
     bottom: 20px;
     left: 0;
@@ -118,28 +127,101 @@ ol li {
     text-align: left;
     width: 800px;
     margin: 100px auto;
-  }
-  
-  .contact-us h2 {
+}
+
+.contact-us h2 {
     margin: 0;
     padding-bottom: 10px;
-  }
-  
-  .contact-us label {
+}
+
+.contact-us label {
     color: white;
-  }
-  
-  .contact-us input[type="email"] {
+}
+
+.contact-us input[type="email"] {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
     margin-bottom: 10px;
-  }
-  
-  .contact-us input[type="submit"] {
+}
+
+.contact-us input[type="submit"] {
     background-color: #1a060d;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-  }
+}
+
+
+@media (max-width: 768px) {
+    .header ul {
+        padding-right: 0;
+        flex-direction: column; 
+    }
+
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    ul li {
+        font-size: 20px;
+    }
+
+    .about-us p {
+        font-size: 16px;
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis;
+    }
+
+    ol li {
+        font-size: 24px;
+    }
+
+   
+    #imageAlbum {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .axolotl-img {
+        width: 50%; 
+    }
+
+
+    .header,
+    .header .nav-bar {
+        text-align: center;
+    }
+
+ 
+    .cycling-guide {
+        padding: 20px; 
+        display: flex;
+        justify-content: center;
+
+      }
+    
+
+    #cycling-photo {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+  
+    .contact-us {
+        width: 90%;
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+}
